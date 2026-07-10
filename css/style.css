@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -90,3 +91,60 @@ padding: 0 15px;
 
 
 /* =======================BANNERPART END=================== */
+/* ======================SPEAKERPART START================= */
+
+#speakerPart{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #eff0f3;
+}
+.spekerContent{
+    text-align: center;
+   
+}
+.spekerContent h3{
+      color: #000102;
+      font-family: "Inter", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.card img{
+    width: 100%;
+   
+   
+}
+.card h5{
+      color: #2563EB;
+      font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.card h4{
+      color: #0D1B2A;
+      font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.card p{
+      color: #575757;
+      font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.bcontent{
+    margin-left: 25px;
+}
+/* ======================SPEAKERPART END================= */
