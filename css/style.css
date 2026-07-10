@@ -159,6 +159,7 @@ padding: 0 15px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: #fff;
+   
 }
 .secureContent{
     text-align: center;
@@ -175,7 +176,7 @@ margin-left: 200px;
     background-color: #E5E7EB;
     border-radius: 12px;
     border: 1px solid rgba(129, 127, 127, 0.337);
-    transition: .6s;
+   
    
 }
 .sBox h5{
@@ -208,10 +209,17 @@ margin-left: 200px;
  line-height: 21px;
  
 }
+
 .ptext{
     margin-top: 30px;
     margin-bottom: 10px;
-}hr{
+}
+.ptext i{
+    padding-right: 5px;
+  color: #1D4ED8;
+ 
+}
+hr{
     margin-top: 20px;
 }
 .secureContent h3{
@@ -238,6 +246,81 @@ margin-left: 200px;
    border-radius: 8px;
    cursor: pointer;
 }
+.active{
+    background-color: #000102;
+    color: #E5E7EB;
+   
+}
+.getS.active{
+   background-color: #1D4ED8;
+}
 
-
+.sBox.active h3,
+.sBox.active h4,
+.sBox.active h5,
+.sBox.active h6,
+.sBox.active p,
+.sBox.active li
+{
+    color: #fff;
+}
 /* ==========================SECURESPOTPART END========================== */
+/* =====================MISSINGPART START=========================== */
+#missingPart{
+    padding: 100px 0;
+    background-color: rgb(241, 238, 238);
+    text-align: center;
+}
+.missingContent{
+    padding: 30px 0;
+    border: 1px solid rgba(191, 188, 188, 0.523);
+  
+}
+.up{
+    text-align: center;
+}
+.up h3{
+     color: #0D1B2A;
+      font-family: "Inter", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+}
+.bottom{
+    margin-top: 50px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 30px;
+    
+
+     
+      
+    
+}
+.bottom h4{
+     color:#000;
+      font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.bottom h6{
+     color: #575757;
+      font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+/* ========================MISSINGOART END=========================== */
+
+
+/* ======================FOOTERPART START============================= */
+#footerPart{
+    padding: 25px 0;
+    background-color: #000;
+}
+.footerContent{
+    display: flex;
+}
+
+
+/* ======================FOOTERPART END============================= */
