@@ -96,7 +96,7 @@ padding: 0 15px;
 #speakerPart{
     padding-top: 50px;
     padding-bottom: 100px;
-    background-color: #eff0f3;
+    background-color: #fff;
 }
 .spekerContent{
     text-align: center;
@@ -114,8 +114,9 @@ padding: 0 15px;
     justify-content: space-between;
 }
 .card{
-    border: 1px solid black;
+    border: 1px solid rgba(153, 148, 148, 0.577);
     border-radius: 12px;
+    overflow: hidden;
 }
 .card img{
     width: 100%;
@@ -148,3 +149,95 @@ padding: 0 15px;
     margin-left: 25px;
 }
 /* ======================SPEAKERPART END================= */
+
+
+
+/* =======================SECURESPOTPART START====================== */
+#securespotPart{
+    padding-top: 20px;
+    padding-bottom: 95px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+}
+.secureContent{
+    text-align: center;
+  
+}
+.secureBox{
+    display:flex;
+   margin-top: 50px;
+  gap: 30px;
+margin-left: 200px;
+}
+.sBox{
+    padding: 30px;
+    background-color: #E5E7EB;
+    border-radius: 12px;
+    border: 1px solid rgba(129, 127, 127, 0.337);
+    transition: .6s;
+   
+}
+.sBox h5{
+     color: #888888;
+      font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+ padding-bottom: 5px;
+}
+.sBox h3{
+     color: #0D1B2A;
+      font-family: "Inter", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+ 
+}
+.sBox h6{
+     color: #888888;
+      font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+ 
+}
+.sBox p{
+     color: #333333;
+      font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+ padding: 5px 0;
+ line-height: 21px;
+ 
+}
+.ptext{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}hr{
+    margin-top: 20px;
+}
+.secureContent h3{
+ color: #0D1B2A;
+      font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.secureContent p{
+ color: #575757;
+      font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+  
+
+}
+.getS{
+    padding: 10px 15px;
+   background-color:transparent;
+   color: #0D1B2A;
+   border: 1px solid #0D1B2A;
+   text-align: center;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+
+/* ==========================SECURESPOTPART END========================== */
