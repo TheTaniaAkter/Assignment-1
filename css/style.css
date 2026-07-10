@@ -290,12 +290,7 @@ hr{
      display: grid;
      grid-template-columns: repeat(2,1fr);
      gap: 30px;
-    
-
-     
-      
-    
-}
+    }
 .bottom h4{
      color:#000;
       font-family: "Inter", sans-serif;
@@ -316,11 +311,35 @@ hr{
 /* ======================FOOTERPART START============================= */
 #footerPart{
     padding: 25px 0;
-    background-color: #000;
+    background-color: #bbb9b9;
 }
 .footerContent{
     display: flex;
+    justify-content: space-between;
 }
+.rightSide{
+   text-align: center;
+  
+}
+.rightSide h4{
+    padding-bottom: 10px;
+}
+.rightSide i{
+    padding: 0 5px;
+}
+.rightSide hr{
+  margin-bottom: 10px;
+ height: 3px;
+ background-color: #000;
 
+}
+.mn{
+    display: flex;
+    justify-content: space-between;
+}
+.ab{
+    display: flex;
+    gap: 20px;
+}
 
 /* ======================FOOTERPART END============================= */
