@@ -91,6 +91,8 @@ padding: 0 15px;
 
 
 /* =======================BANNERPART END=================== */
+
+
 /* ======================SPEAKERPART START================= */
 
 #speakerPart{
@@ -169,7 +171,7 @@ padding: 0 15px;
     display:flex;
    margin-top: 50px;
   gap: 30px;
-margin-left: 200px;
+justify-content: center;
 }
 .sBox{
     padding: 30px;
@@ -246,9 +248,9 @@ hr{
    border-radius: 8px;
    cursor: pointer;
 }
-.active{
+.sBox.active{
     background-color: #000102;
-    color: #E5E7EB;
+   
    
 }
 .getS.active{
@@ -259,8 +261,8 @@ hr{
 .sBox.active h4,
 .sBox.active h5,
 .sBox.active h6,
-.sBox.active p,
-.sBox.active li
+.sBox.active p
+
 {
     color: #fff;
 }
@@ -341,5 +343,34 @@ hr{
     display: flex;
     gap: 20px;
 }
-
+.bam h4{
+        color: #131313;
+      font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.dan h4{
+      color: #131313;
+      font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}  
+.dan h5{
+        color: #131313;
+      font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.ms h4{
+       color: #131313;
+      font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.mn h5{
+         color: #131313;
+      font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
 /* ======================FOOTERPART END============================= */
